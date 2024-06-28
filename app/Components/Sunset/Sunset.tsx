@@ -23,7 +23,7 @@ function Sunset() {
   const sunrise = unixToTime(forecast?.sys?.sunrise, timezone);
 
   return (
-    <div className="pt-6 pb-5 px-4 h-[12rem] border rounded-lg flex flex-col gap-8 dark:bg-black/50 dark:backdrop-blur-sm shadow-sm">
+    <div className="pt-6 pb-5 px-4 h-[12rem] border rounded-lg flex flex-col gap-8 dark:bg-black/50 dark:backdrop-blur-sm shadow-sm bg-slate-100 backdrop-blur-sm drop-shadow-2xl">
       <div className="top">
         <h2 className="flex items-center gap-2 text-xl">{sunset}Sunset</h2>
         <p className="pt-4 text-xl">{sunsetTime}</p>

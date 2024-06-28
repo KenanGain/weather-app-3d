@@ -95,7 +95,7 @@ function SearchDialog() {
         <DialogTrigger asChild>
           <Button
             variant="outline"
-            className="border rounded-full inline-flex items-center justify-center text-sm font-medium dark:bg-black/50 dark:backdrop-blur-sm shadow-sm hover:dark:bg-[#131313] hover:bg-slate-100  ease-in-out duration-200"
+            className="border rounded-full inline-flex items-center justify-center text-sm font-medium dark:bg-black/50 dark:backdrop-blur-sm shadow-sm hover:dark:bg-[#131313] hover:bg-slate-100  ease-in-out duration-200 bg-slate-100 backdrop-blur-sm drop-shadow-2xl"
           >
             <p className="text-sm text-muted-foreground">Search Here...</p>
             <div className="command dark:backdrop-blur-sm shadow-sm py-[5px] pl-[5px] pr-[7px] rounded-full ml-[10rem] flex items-center gap-2">

@@ -223,7 +223,7 @@ function Temperature() {
 //     </p>
 //   </div>
 // </div>
-<div className="p-4 pl-5 border rounded-lg flex flex-col justify-between dark:bg-black/50 dark:backdrop-blur-sm shadow-sm">
+<div className="p-4 pl-5 border rounded-lg flex flex-col justify-between dark:bg-black/50 dark:backdrop-blur-sm shadow-sm bg-slate-100 backdrop-blur-sm drop-shadow-2xl">
       <div className="flex justify-between items-start">
         <span className="text-2xl">{getIcon()}
         <p className="text-sm">{description}</p>

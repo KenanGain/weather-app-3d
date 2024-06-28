@@ -31,7 +31,7 @@ function Pressure() {
   };
 
   return (
-    <div className="pt-5 pb-3 px-4 h-auto border rounded-lg flex flex-col gap-4 dark:bg-black/50 dark:backdrop-blur-sm shadow-sm dark:shadow-none ">
+    <div className="pt-5 pb-3 px-4 h-auto border rounded-lg flex flex-col gap-4 dark:bg-black/50 dark:backdrop-blur-sm shadow-sm dark:shadow-none bg-slate-100 backdrop-blur-sm drop-shadow-2xl">
       <div className="top">
         <p className="flex items-center gap-1 text-md font-medium">
           {gauge} Pressure

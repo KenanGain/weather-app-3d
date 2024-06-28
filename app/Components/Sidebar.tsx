@@ -34,7 +34,7 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:left-[2%] z-50 top-0 w-screen xl:w-16 xl:max-w-md xl:h-screen">
       <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 xl:px-0 md:px-40 xl:px=0 h-[80px] xl:h-max py-8
-        px-4  border dark:bg-black/50 dark:backdrop-blur-sm shadow-sm text-3xl xl:rounded-full">
+        px-4 border dark:bg-black/50 dark:backdrop-blur-sm shadow-sm text-3xl xl:rounded-full bg-slate-100 backdrop-blur-sm drop-shadow-2xl">
         
         {/* Weather */}
         <div

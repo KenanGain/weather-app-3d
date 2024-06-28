@@ -17,8 +17,8 @@ function AirPollution() {
     !airQuality.list[0].main
   ) {
     return (
-        <div className="p-4 pl-5 border rounded-lg flex flex-col justify-between dark:bg-dark-grey shadow-sm h-full dark:shadow-none gap-2 backdrop-blur-sm"><Skeleton className="w-full h-[20px] rounded-full" />
-        <Skeleton className="w-full h-[20px] rounded-full" />
+        <div className="p-4 pl-5 border rounded-lg flex flex-col justify-between drop-shadow-2xl dark:bg-dark-grey shadow-sm h-full dark:shadow-none gap-2 backdrop-blur-sm"><Skeleton className="w-full h-[20px] rounded-full bg-slate-100 backdrop-blur-sm" />
+        <Skeleton className="w-full h-[20px] rounded-full " />
     </div>
     );
   }
@@ -31,7 +31,7 @@ function AirPollution() {
 
   return (
     <div
-      className="air-pollution pt-6 px-4 h-[12rem] border rounded-lg flex flex-col gap-8 dark:bg-black/50 dark:backdrop-blur-sm shadow-sm col-span-full sm-2:col-span-2 md:col-span-2 xl:col-span-2"
+      className="air-pollution pt-6 px-4 h-[12rem] border rounded-lg flex flex-col gap-8 drop-shadow-2xl dark:bg-black/50 dark:backdrop-blur-sm shadow-sm col-span-full sm-2:col-span-2 md:col-span-2 xl:col-span-2 bg-slate-100 backdrop-blur-sm"
     >
       <h2 className="flex items-center gap-2 text-xl">
         {thermo}Air Pollution

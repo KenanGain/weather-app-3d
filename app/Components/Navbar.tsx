@@ -17,13 +17,13 @@ function Navbar() {
   return (
     <div className='w-full py-4 flex items-center justify-between '>
       
-      <div className="search-container flex shrink-0 w-full gap-2 sm:w-fit">
+      <div className="search-container flex shrink-0 w-full gap-2 sm:w-fit drop-shadow-2xl">
         <SearchDialog />
-        <div className='btn-group flex items-center gap-2'>
+        <div className='btn-group flex items-center gap-2 drop-shadow-2xl'>
         <ThemeDropdown />
         </div>
       </div>
-      <div className="right">
+      <div className="right drop-shadow-2xl">
       {theme === 'light' ? (
           <Image 
             src='/MetaworldX-3.png' 
