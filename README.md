@@ -65,3 +65,13 @@ This project provides a foundation for building a visually stunning and informat
 - **Styling:** Fine-tune the app's look and feel using Tailwind CSS, Shadcn UI themes, or custom CSS.
 
 I hope this comprehensive guide empowers you to build a captivating weather app with Next.js!
+
+Screenshot:
+
+![Screenshot 2024-06-28 124751](https://github.com/KenanGain/weather-app-3d/assets/123521687/65e5dc9f-f7ab-470d-8b2e-c2d473ee8d96)
+![Screenshot 2024-06-28 124816](https://github.com/KenanGain/weather-app-3d/assets/123521687/8f817eda-44a3-4631-802c-4598fcc7d65d)
+![Screenshot 2024-06-28 124907](https://github.com/KenanGain/weather-app-3d/assets/123521687/7a46ff6d-f58c-4d55-bf6c-ef5dba479b93)
+![Screenshot 2024-06-28 124838](https://github.com/KenanGain/weather-app-3d/assets/123521687/741c03a9-5381-4e47-8649-2f168c9c269c)
+
+
+
