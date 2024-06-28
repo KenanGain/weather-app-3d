@@ -21,7 +21,7 @@ This project provides a foundation for building a visually stunning and informat
    npx shadcn-ui@latest add button
    npx shadcn-ui@latest add dialog
    npx shadcn-ui@latest add dropdown-menu
-   npx shadcn-ui@latest add theme
+   npm install next-themes
    npx shadcn-ui@latest add hover-card
    npx shadcn-ui@latest add progress
    npx shadcn-ui@latest add skeleton
