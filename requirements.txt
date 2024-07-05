@@ -1,0 +1,7 @@
+next
+tailwindcss
+@shadcn/ui
+axios
+lodash
+lucide-react
+next-themes
